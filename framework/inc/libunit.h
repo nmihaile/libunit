@@ -6,7 +6,7 @@
 /*   By: nmihaile <nmihaile@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/29 18:41:34 by nweber            #+#    #+#             */
-/*   Updated: 2025/08/31 19:46:21 by nmihaile         ###   ########.fr       */
+/*   Updated: 2025/09/01 09:11:33 by nmihaile         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@
 # include <stdbool.h>
 # include <fcntl.h>
 # include "colors.h"
-# include "../libft/libft.h"
+# include "../../libft/libft.h"
 
 // Test result codes
 # define OK			0

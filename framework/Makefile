@@ -2,7 +2,9 @@
 NAME	=	libunit.a
 CC		=	cc
 AR		=	ar
-CFLAGS	=	-Wall -Wextra -Werror
+CFLAGS	=	-Wall -Wextra -Werror -Iinc
+
+VPATH	=	src
 
 SRCS	=	load_test.c \
 			compare_stdout.c \
