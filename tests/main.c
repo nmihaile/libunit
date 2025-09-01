@@ -6,11 +6,11 @@
 /*   By: nmihaile <nmihaile@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/30 16:58:49 by nweber            #+#    #+#             */
-/*   Updated: 2025/08/31 11:54:24 by nmihaile         ###   ########.fr       */
+/*   Updated: 2025/09/01 09:22:00 by nmihaile         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../framework/libunit.h"
+#include "../framework/inc/libunit.h"
 #include "dummy.h"
 
 int	main(void)
