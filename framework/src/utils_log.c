@@ -6,7 +6,7 @@
 /*   By: nmihaile <nmihaile@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/31 14:38:17 by nweber            #+#    #+#             */
-/*   Updated: 2025/08/31 18:50:54 by nmihaile         ###   ########.fr       */
+/*   Updated: 2025/09/02 12:05:28 by nmihaile         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,25 +63,27 @@ static void	write_failure_details(int fd, t_unit_test *unit_test)
 {
 	write_signal_exitcode(fd, unit_test);
 	if (unit_test->status == SEGV)
-		dprintf(fd, "\t[INFO] Check null pointers, array \
-bounds, freed memory.\n");
+		dprintf(fd, "\t[INFO] \"Check null pointers, array \
+bounds, freed memory.\"\n");
 	else if (unit_test->status == BUSE)
-		dprintf(fd, "\t[INFO] Check memory alignment, \
-uninitialized pointers.\n");
+		dprintf(fd, "\t[INFO] \"Check memory alignment, \
+uninitialized pointers.\"\n");
 	else if (unit_test->status == ABRT)
-		dprintf(fd, "\t[INFO] Check assertions, malloc \
-failures, abort() calls.\n");
+		dprintf(fd, "\t[INFO] \"Check assertions, malloc \
+failures, abort() calls.\"\n");
 	else if (unit_test->status == SFPE)
-		dprintf(fd, "\t[INFO] Check division by zero, \
-invalid float operations.\n");
+		dprintf(fd, "\t[INFO] \"Check division by zero, \
+invalid float operations.\"\n");
 	else if (unit_test->status == PIPE)
-		dprintf(fd, "\t[INFO] Check file descriptors, pipe operations.\n");
+		dprintf(fd, "\t[INFO] \"Check file descriptors, pipe operations.\"\n");
 	else if (unit_test->status == SILL)
-		dprintf(fd, "\t[INFO] Check function pointers, corrupted code.\n");
+		dprintf(fd, "\t[INFO] \"Check function pointers, corrupted code.\"\n");
 	else if (unit_test->status == TIMEOUT)
-		dprintf(fd, "\t[INFO] Check infinite loops, recursive functions.\n");
+		dprintf(fd, "\t[INFO] \"Check infinite loops, \
+recursive functions.\"\n");
 	else if (unit_test->status == KO)
-		dprintf(fd, "\t[INFO] Check return values, test logic, edge cases.\n");
+		dprintf(fd, "\t[INFO] \"Check return values, \
+test logic, edge cases.\"\n");
 }
 
 void	ftu_write_log(char *func_name, t_list *lst, int count, int passed)
@@ -99,7 +101,7 @@ void	ftu_write_log(char *func_name, t_list *lst, int count, int passed)
 		return ;
 	dprintf(fd, "Function: %s\nPassed: %d/%d\n", func_name, passed, count);
 	if (passed != count)
-		dprintf(fd, "Failed: %d tests\n", count - passed);
+		dprintf(fd, "[WARN] Failed: %d tests\n", count - passed);
 	dprintf(fd, "\n");
 	curr = lst;
 	while (curr)
