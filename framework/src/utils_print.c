@@ -6,7 +6,7 @@
 /*   By: nmihaile <nmihaile@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/30 12:01:08 by nmihaile          #+#    #+#             */
-/*   Updated: 2025/09/02 10:50:43 by nmihaile         ###   ########.fr       */
+/*   Updated: 2025/09/02 11:06:58 by nmihaile         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,19 +59,20 @@ void	ftu_print_final_result(void)
 	if (ftu_count_routine_result(0, 0, false))
 	{
 		ft_putstr_fd(GREEN, 1);
-		ft_putstr_fd(GREEN"================================================", 1);
+		ft_putstr_fd("================================================", 1);
 		ft_putendl_fd(DEFAULT, 1);
-		ft_putendl_fd("  🎉🥳"LIGHTGREEN BOLD" All tests passed!" REGULAR \
-			GREEN " Congratulations! 🥳🎉  ", 1);
-		ft_putstr_fd(GREEN"================================================", 1);
+		ft_putstr_fd("  🎉🥳"LIGHTGREEN BOLD" All tests passed!", 1);
+		ft_putendl_fd(REGULAR GREEN" Congratulations! 🥳🎉  ", 1);
+		ft_putstr_fd(GREEN, 1);
+		ft_putstr_fd("================================================", 1);
 		ft_putendl_fd(DEFAULT, 1);
 		return ;
 	}
-	ft_putstr_fd(LIGHTRED" ❌ only "LIGHTRED BOLD, 1);
+	ft_putstr_fd(LIGHTRED"❌ only "LIGHTRED BOLD, 1);
 	ft_putnbr_fd(ftu_total_test_passed(false), 1);
 	ft_putchar_fd('/', 1);
 	ft_putnbr_fd(ftu_total_test_count(false), 1);
 	ft_putendl_fd(REGULAR" tests passed!" REGULAR, 1);
-	ft_putstr_fd("===============================================", 1);
+	ft_putstr_fd("================================================", 1);
 	ft_putendl_fd(DEFAULT, 1);
 }
