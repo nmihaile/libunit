@@ -6,14 +6,14 @@
 /*   By: nmihaile <nmihaile@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/29 18:55:22 by nmihaile          #+#    #+#             */
-/*   Updated: 2025/08/31 21:30:50 by nmihaile         ###   ########.fr       */
+/*   Updated: 2025/09/02 10:59:49 by nmihaile         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libunit.h"
 #include <fcntl.h>
 
-static void	silent_fd(int fd_out)
+static void	silence_fd(int fd_out)
 {
 	int	fd;
 
@@ -55,14 +55,14 @@ static int	evaluate_child_exit_code(int *status, t_unit_test *unit_test)
 }
 
 //	TODO:	we can improve silencing by using flags
-// silent_fd(STDOUT_FILENO);
+// silence_fd(STDOUT_FILENO);
 static void	exec_child(t_unit_test *unit_test, t_list *lst)
 {
 	int	(*func)(void);
 
 	signal(SIGALRM, ftu_timeout_handler);
 	alarm(10);
-	silent_fd(STDERR_FILENO);
+	silence_fd(STDERR_FILENO);
 	func = unit_test->f;
 	ft_lstclear(&lst, free);
 	alarm(TIMEOUT_PERIOD);
