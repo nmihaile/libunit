@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   dummy.h                                            :+:      :+:    :+:   */
+/*   demo.h                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nmihaile <nmihaile@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/30 16:57:33 by nweber            #+#    #+#             */
-/*   Updated: 2025/09/02 11:02:30 by nmihaile         ###   ########.fr       */
+/*   Updated: 2025/09/02 11:49:30 by nmihaile         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int		ft_sigill_error(void);
 int		ft_timeout_error(void);
 void	ft_stdout_helper(void);
 
-int		ft_dummy_launcher(void);
+int		ft_demo_launcher(void);
 int		ft_ok_test(void);
 int		ft_ko_test(void);
 int		ft_segv_test(void);

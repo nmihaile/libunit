@@ -3,15 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_abort_error.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nweber <nweber@student.42Heilbronn.de>     +#+  +:+       +#+        */
+/*   By: nmihaile <nmihaile@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/31 12:43:12 by nweber            #+#    #+#             */
-/*   Updated: 2025/08/31 13:20:59 by nweber           ###   ########.fr       */
+/*   Updated: 2025/09/02 11:46:06 by nmihaile         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 
+// Remove all CFLAGS so that this demonstration function compiles on linux.
 int	ft_abort_error(void)
 {
 	char	*p;

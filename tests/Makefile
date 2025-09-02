@@ -11,18 +11,18 @@ SRCS	=	main.c \
 			helper/ft_timeout_error.c \
 			helper/ft_sigill_error.c \
 			helper/ft_stdout_helper.c \
-			dummy/00_launcher.c \
-			dummy/01_ok_test.c \
-			dummy/02_ko_test.c \
-			dummy/03_sigsegv_test.c \
-			dummy/04_bus_error_test.c \
-			dummy/05_abort_test.c \
-			dummy/06_sigfpe_test.c \
-			dummy/07_pipe_test.c \
-			dummy/08_sigill_test.c \
-			dummy/09_timeout_test.c \
-			dummy/10_stdout_success_test.c \
-			dummy/11_stdout_error_test.c
+			demo/00_launcher.c \
+			demo/01_ok_test.c \
+			demo/02_ko_test.c \
+			demo/03_sigsegv_test.c \
+			demo/04_bus_error_test.c \
+			demo/05_abort_test.c \
+			demo/06_sigfpe_test.c \
+			demo/07_pipe_test.c \
+			demo/08_sigill_test.c \
+			demo/09_timeout_test.c \
+			demo/10_stdout_success_test.c \
+			demo/11_stdout_error_test.c
 
 OBJS	=	$(addprefix obj/, $(SRCS:.c=.o))
 

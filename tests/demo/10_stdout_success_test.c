@@ -6,11 +6,11 @@
 /*   By: nmihaile <nmihaile@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/02 10:21:05 by nmihaile          #+#    #+#             */
-/*   Updated: 2025/09/02 10:50:01 by nmihaile         ###   ########.fr       */
+/*   Updated: 2025/09/02 11:46:34 by nmihaile         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../dummy.h"
+#include "../demo.h"
 #include "../../framework/inc/libunit.h"
 
 int	ft_stdout_success_test(void)

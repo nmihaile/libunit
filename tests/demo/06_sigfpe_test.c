@@ -6,11 +6,11 @@
 /*   By: nmihaile <nmihaile@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/31 12:13:21 by nmihaile          #+#    #+#             */
-/*   Updated: 2025/08/31 13:34:09 by nmihaile         ###   ########.fr       */
+/*   Updated: 2025/09/02 11:46:17 by nmihaile         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../dummy.h"
+#include "../demo.h"
 
 int	ft_sigfpe_test(void)
 {

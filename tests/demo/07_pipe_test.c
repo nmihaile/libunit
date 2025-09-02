@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   07_pipe_test.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nweber <nweber@student.42Heilbronn.de>     +#+  +:+       +#+        */
+/*   By: nmihaile <nmihaile@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/31 11:21:48 by nmihaile          #+#    #+#             */
-/*   Updated: 2025/08/31 12:45:34 by nweber           ###   ########.fr       */
+/*   Updated: 2025/09/02 11:46:21 by nmihaile         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../dummy.h"
+#include "../demo.h"
 
 int	ft_pipe_test(void)
 {

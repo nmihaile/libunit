@@ -6,11 +6,11 @@
 /*   By: nmihaile <nmihaile@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/30 17:08:19 by nweber            #+#    #+#             */
-/*   Updated: 2025/08/30 18:20:47 by nmihaile         ###   ########.fr       */
+/*   Updated: 2025/09/02 11:45:30 by nmihaile         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../dummy.h"
+#include "../demo.h"
 
 int	ft_bus_error_test(void)
 {

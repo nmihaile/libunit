@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_pipe_error.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nweber <nweber@student.42Heilbronn.de>     +#+  +:+       +#+        */
+/*   By: nmihaile <nmihaile@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/31 12:44:46 by nweber            #+#    #+#             */
-/*   Updated: 2025/08/31 12:46:39 by nweber           ###   ########.fr       */
+/*   Updated: 2025/09/02 11:48:22 by nmihaile         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <fcntl.h>
+// #include <stdlib.h>
+// #include <fcntl.h>
 #include <unistd.h>
 
 int	ft_pipe_error(void)

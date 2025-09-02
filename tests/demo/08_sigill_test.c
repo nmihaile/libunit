@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   08_sigill_test.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nweber <nweber@student.42Heilbronn.de>     +#+  +:+       +#+        */
+/*   By: nmihaile <nmihaile@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/31 13:57:23 by nweber            #+#    #+#             */
-/*   Updated: 2025/08/31 13:58:14 by nweber           ###   ########.fr       */
+/*   Updated: 2025/09/02 11:46:26 by nmihaile         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../dummy.h"
+#include "../demo.h"
 
 int	ft_sigill_test(void)
 {

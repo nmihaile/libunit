@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   09_timeout_test.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nweber <nweber@student.42Heilbronn.de>     +#+  +:+       +#+        */
+/*   By: nmihaile <nmihaile@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/31 13:21:55 by nweber            #+#    #+#             */
-/*   Updated: 2025/08/31 13:25:29 by nweber           ###   ########.fr       */
+/*   Updated: 2025/09/02 11:46:30 by nmihaile         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../dummy.h"
+#include "../demo.h"
 
 int	ft_timeout_test(void)
 {
